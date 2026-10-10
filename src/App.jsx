@@ -25,6 +25,8 @@ const handelIncrement =(userId)=>{
   setUserinfo(userInfo.map((usr)=>usr.id === userId ? {...usr , Age:usr.Age +1 } : usr ))
 
 }
+console.log("Hello ");
+
 const handelDelete =()=> {
   setUserinfo(userInfo.filter((usr)=>usr.Age <=25))  
   console.log(userInfo);
