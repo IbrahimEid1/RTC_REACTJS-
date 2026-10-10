@@ -36,12 +36,12 @@ const handelusers =  (users)=>{
 setUserinfo([...userInfo , users])  
 }       
   return (
-    <>
+    <nav>
     <AddUser handelusers={handelusers}/>
        { 
         userInfo.map((usr)=>(<Users {...usr} key={usr.id} handelIncrement={handelIncrement} decrementAge={decrementAge} handelDelete={handelDelete} />))
        }
-    </>
+    </nav>
   )
 }                                              
 
