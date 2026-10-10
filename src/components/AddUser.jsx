@@ -8,7 +8,6 @@ name:'' ,
 age:'' ,
 Job:''
 })
-console.log(handelChanges);
 
     const handelChanges =(event)=> {
           setUserData({...userData ,[event.target.name]:event.target.value})
