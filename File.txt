@@ -4,4 +4,5 @@
 4- git status 
 5-git commit 
 6- git add + git commit  = git commit -am "Message " ==> Staging Area 
-7- 
+7- git log --oneline
+8-git reset 
