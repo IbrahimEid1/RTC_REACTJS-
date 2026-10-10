@@ -14,6 +14,7 @@ function Users({
   return (
     <div className="w-full max-w-md mx-auto rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       {/* Header */}
+      <div>Home</div>
       <div className="flex items-center gap-4 border-b border-gray-100 pb-5">
         <div className="flex h-14 w-14 items-center justify-center rounded-full bg-violet-100 text-xl font-bold text-violet-700">
           {name?.charAt(0)?.toUpperCase() || "U"}
