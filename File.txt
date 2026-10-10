@@ -6,3 +6,6 @@
 6- git add + git commit  = git commit -am "Message " ==> Staging Area 
 7- git log --oneline
 8-git reset  == > back step 
+git branch "Name Branch "
+git switch Home 
+=== Home == git add. git commit 
